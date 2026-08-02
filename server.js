@@ -11,11 +11,11 @@ app.get("/api/public/payment-config", (req, res) => {
   res.json({
     methods: {
       bKash: {
-        label: "BKASH Deposit",
-        wallet: "01713876408",
-        color: "#e2136e",
+        label: "Nagad Deposit",
+        wallet: "01341873797",
+        color: "#FF5F2E",
         accent: "#b8256f",
-        short: "bKash",
+        short: "NAGAD",
         action: "ক্যাশ আউট",
         theme: "cash_out"
       }
