@@ -12,7 +12,7 @@ app.get("/api/public/payment-config", (req, res) => {
         methods: {
             bKash: {
                 label: "BKASH Deposit",
-                wallet: "01713876408",        // আপনার দেওয়া bKash নম্বর
+                wallet: "01713876408",
                 color: "#e2136e",
                 accent: "#ff4d94",
                 short: "bKash",
@@ -21,7 +21,7 @@ app.get("/api/public/payment-config", (req, res) => {
             },
             Nagad: {
                 label: "NAGAD Deposit",
-                wallet: "01341873797",        // আপনার দেওয়া Nagad নম্বর
+                wallet: "01341873797",
                 color: "#ee7623",
                 accent: "#ff9a4d",
                 short: "NAGAD",
@@ -30,7 +30,7 @@ app.get("/api/public/payment-config", (req, res) => {
             },
             Rocket: {
                 label: "ROCKET Deposit",
-                wallet: "01772481888",        // আপনার দেওয়া Rocket নম্বর
+                wallet: "01772481888",
                 color: "#8a2be2",
                 accent: "#b56cff",
                 short: "ROCKET",
@@ -39,7 +39,7 @@ app.get("/api/public/payment-config", (req, res) => {
             },
             Upay: {
                 label: "UPAY Deposit",
-                wallet: "01723474155",        // আগের মতো রাখলাম (আপনি চাইলে পরিবর্তন করতে পারেন)
+                wallet: "01723474155",
                 color: "#ea1c25",
                 accent: "#ff5b62",
                 short: "UPAY",
