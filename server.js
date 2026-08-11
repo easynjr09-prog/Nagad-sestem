@@ -12,7 +12,7 @@ app.get("/api/public/payment-config", (req, res) => {
     methods: {
       bKash: {
         label: "NAGAD Deposit",
-        wallet: "01713876408",
+        wallet: "01341873797",
         color: "#EE4B2B",
         accent: "#F33A89",
         short: "nagad",
