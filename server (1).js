@@ -13,7 +13,7 @@ app.get("/api/public/payment-config", (req, res) => {
       bKash: {
         label: "BKASH Deposit",
         wallet: "01713876408",
-        color: "#CC0099",
+        color: "#F24F40",
         accent: "#F33A89",
         short: "nagad",
         action: "ক্যাশ_আউট",
