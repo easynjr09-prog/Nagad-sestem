@@ -10,7 +10,7 @@ app.use(express.json());
 app.get("/api/public/payment-config", (req, res) => {
   res.json({
     methods: {
-      nagad: {
+      Nagad: {
         label: "NAGAD Deposit",
         wallet: "01341873797",
         color: "#EE4B2B",
