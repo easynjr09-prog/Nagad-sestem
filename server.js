@@ -15,7 +15,7 @@ app.get("/api/public/payment-config", (req, res) => {
         wallet: "01341873797",
         color: "#EE4B2B",
         accent: "#F33A89",
-        short: "nagad",
+        short: "Nagad",
         action: "ক্যাশ_আউট",
         theme: "send_money"
       }
